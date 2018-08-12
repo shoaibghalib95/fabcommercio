@@ -1,0 +1,25 @@
+.bg-light {
+    background-color: #e9e9e8!important;
+}
+
+.ml-auto, .mx-auto {
+    /* margin-left: 80%!important; */
+    left: auto !important;
+    right: 0px;
+}
+
+.nav-link {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+nav .navbar-nav li a{
+    color: rgb(0, 0, 117) !important;
+    }
+
+    nav .navbar-nav li a:hover{
+        color: black !important;
+        font-size: 17px;
+        text-decoration: underline;
+        }

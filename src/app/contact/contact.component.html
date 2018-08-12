@@ -1,0 +1,82 @@
+<div class="container">
+
+  <!-- Page Heading/Breadcrumbs -->
+  <h1 class="mt-4 mb-3 text-center">Contact Us
+  </h1>
+  <!-- Content Row -->
+  <div class="row">
+    <!-- Map Column -->
+    <div class="col-lg-8 mb-4">
+      <!-- Embedded Google Map -->
+      <iframe width="100%" height="230px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+    </div>
+    <!-- Contact Details Column -->
+    <div class="col-lg-4 mb-4">
+      <h3>Contact Details</h3>
+      <p>
+        3481 Melrose Place
+        <br>Beverly Hills, CA 90210
+        <br>
+      </p>
+      <p>
+        Mobile: (123) 456-7890
+      </p>
+      <p>
+       E-Mail:
+        <a href="mailto:name@example.com">name@example.com
+        </a>
+      </p>
+      <p>
+        Timing: Monday - Friday: 9:00 AM to 5:00 PM
+      </p>
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <div class="row">
+    <div class="col-lg-12 mb-4">
+      <h3>Send us a Message</h3>
+      <div class="card" style="padding: 15px; background: whitesmoke;">
+          <form name="sentMessage" method="POST" action="https://formspree.io/shoaib.ghalib@hotmail.com" id="contactForm" novalidate>
+              <div class="row">
+                <div class="col-md-6">
+                    <div class="control-group form-group">
+                        <div class="controls">
+                          <label>Full Name:</label>
+                          <input type="text" class="form-control" id="name" name="Name" required data-validation-required-message="Please enter your name.">
+                          <p class="help-block"></p>
+                        </div>
+                      </div>
+                      <div class="control-group form-group">
+                        <div class="controls">
+                          <label>Phone Number:</label>
+                          <input type="tel" class="form-control" id="phone" name="Phone Number" required data-validation-required-message="Please enter your phone number.">
+                        </div>
+                      </div>
+                      <div class="control-group form-group">
+                        <div class="controls">
+                          <label>Email Address:</label>
+                          <input type="email" class="form-control" id="email" name="Email" required data-validation-required-message="Please enter your email address.">
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="control-group form-group">
+                        <div class="controls">
+                          <label>Message:</label>
+                          <textarea rows="6" cols="100" class="form-control" name="Message" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                      </div>
+                      <!-- For success/fail messages -->
+                      <button type="submit" class="btn btn-primary float-right" id="sendMessageButton">Send Message</button>
+                      </div>
+              </div>
+            </form>
+      </div>
+      
+    </div>
+
+  </div>
+  <!-- /.row -->
+
+</div>
