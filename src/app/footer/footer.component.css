@@ -19,10 +19,10 @@ section .section-title {
 }
 #footer h5{
 	padding-left: 10px;
-    border-left: 3px solid black;
+    border-left: 3px solid;
     padding-bottom: 6px;
     margin-bottom: 20px;
-    color: black;
+    color: #317aeb;
 }
 #footer a {
     color: black;
