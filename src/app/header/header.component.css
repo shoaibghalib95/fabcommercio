@@ -15,11 +15,11 @@
 }
 
 nav .navbar-nav li a{
-    color: #317aeb !important;
+    color:  black !important;
     }
 
     nav .navbar-nav li a:hover{
-        color: black !important;
+        color: #317aeb  !important;
         font-size: 17px;
-        text-decoration: underline;
+        /* text-decoration: underline; */
         }
