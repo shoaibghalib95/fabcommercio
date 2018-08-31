@@ -61,6 +61,11 @@ section .section-title {
 #footer ul.quick-links li a i{
 	margin-right: 5px;
 }
+.fa-angle-double-right:before {
+    content: "\f101";
+    color: black;
+    font-weight: 600;
+}
 
 @media (max-width:767px){
 	#footer h5 {
@@ -74,3 +79,4 @@ p {
     color: black;
 }
 }
+

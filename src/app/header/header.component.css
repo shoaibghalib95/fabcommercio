@@ -9,7 +9,7 @@
 }
 
 .nav-link {
-    font-size: 17px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -20,6 +20,6 @@ nav .navbar-nav li a{
 
     nav .navbar-nav li a:hover{
         color: #317aeb  !important;
-        font-size: 17px;
+        font-size: 16px;
         /* text-decoration: underline; */
         }
